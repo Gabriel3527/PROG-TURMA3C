@@ -33,6 +33,7 @@ body {
   font-size: 18px;
   align-items: center;
   width: 100%;
+  
   border-bottom: 4px solid var(--botao-ativo);
   border-left: 2px solid var(--botao-ativo);
   border-right: 2px solid var(--botao-ativo);
@@ -53,6 +54,20 @@ body {
   .botao:last-child {
       border-radius: 0 40px 0 0;
   }
+}
+.conteudo-principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+.titulo-principal {
+  text-align: left;
+  width: 100%;
+  font-size: 32px;
 }
 
 
